@@ -1,0 +1,57 @@
+:root {
+    --fSize: 130%;
+}
+
+.header {
+    height: 80px;
+    width: 90%;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.link {
+    font-size: var(--fSize);
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.login {
+    font-size: var(--fSize);
+    float: right;
+    margin: 20px auto;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.login:hover {
+    text-decoration: rgb(166, 209, 124);
+    cursor: pointer;
+}
+
+.activeLink {
+    color: rgb(0, 98, 128);
+    text-decoration: none;
+    color: rgb(128, 72, 0);
+    border: 3px solid rgba(245, 171, 11, 0.87);
+    border-radius: 30px;
+}
+
+.link:hover {
+    color: rgb(128, 72, 0);
+    background-color: rgba(255, 255, 92, 0.815);
+    border-radius: 30px;
+}
+
+
+/* rgb(92, 243, 92) */
+
+.logo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}

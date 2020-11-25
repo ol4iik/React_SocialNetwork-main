@@ -1,0 +1,8 @@
+.contentWrap {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 100%;
+    padding: 30px 30px 100% 30px;
+    background-color: lightblue;
+}

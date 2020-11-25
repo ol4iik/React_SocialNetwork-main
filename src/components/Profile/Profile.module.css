@@ -1,0 +1,25 @@
+.userImage {
+    width: 150px;
+    height: 150px;
+}
+
+.profile {
+    position: relative;
+}
+
+.nickname {
+    position: absolute;
+    top: 0;
+    margin: 30px;
+}
+
+.status {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    margin: 30px;
+}
+
+.statusText {
+    cursor: pointer;
+}

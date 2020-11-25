@@ -1,0 +1,32 @@
+.photo {
+    width: 150px;
+    height: 150px;
+}
+
+.user {
+    position: relative;
+}
+
+.nickName {
+    margin: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.person {
+    display: inline-block;
+}
+
+.button {
+    margin: 10px;
+}
+
+.status {
+    margin: 20px;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}

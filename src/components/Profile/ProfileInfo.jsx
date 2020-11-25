@@ -10,10 +10,7 @@ const ProfileInfo = (props) => {
     ( <div>
         <div className={style.profile}>
             <div>
-                {props.profile.photos.small 
-                ? props.profile.photos.small 
-                : <img className={style.userImage} src="https://www.americanaircraftsales.com/wp-content/uploads/2016/09/no-profile-img.jpg" alt="avatar"/>
-                }
+                <img className={style.userImage} src={props.profile.photos.small ? props.profile.photos.small : "https://www.americanaircraftsales.com/wp-content/uploads/2016/09/no-profile-img.jpg"} alt="avatar" />
                 <span className={style.nickname}>{props.profile.fullName}</span>
                 {props.id === props.userIdURL
                 ? <ProfileStatus 
